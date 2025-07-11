@@ -1,0 +1,25 @@
+{
+  "name": "tp_integrador_nb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --tunnel",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~5.0.4",
+    "expo": "~53.0.19",
+    "expo-status-bar": "~2.2.3",
+    "nodemon": "^3.1.10",
+    "react": "19.1.0",
+    "react-dom": "^19.1.0",
+    "react-native": "0.80.1",
+    "react-native-web": "^0.20.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
